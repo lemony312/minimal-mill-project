@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run scala-steward action
-        uses: lemony312/scala-steward-action@main
+        uses: lemony312/scala-steward-action@min
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           author-email: "Louis.Boguslav312@gmail.com"
