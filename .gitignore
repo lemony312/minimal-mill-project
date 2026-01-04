@@ -1,0 +1,10 @@
+# Mill build outputs
+out/
+.bsp/mill-bsp-out/
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
