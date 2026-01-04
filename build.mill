@@ -7,7 +7,7 @@ object core extends ScalaModule {
   
   def mvnDeps = Seq(
     mvn"com.lihaoyi::upickle:3.1.4",
-    mvn"com.lihaoyi::requests:0.8.0"
+    mvn"com.lihaoyi::requests:0.8.3"
   )
   
   object test extends ScalaTests with TestModule.Utest {
